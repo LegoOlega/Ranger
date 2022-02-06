@@ -1,0 +1,81 @@
+@import "nullstyle.scss";
+
+.conteiner {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logotype {
+}
+img {
+	width: 110px;
+	height: 110px;
+	border-radius: 100%;
+	&:hover{
+		box-shadow: 0 0 100px yellow;
+	}
+}
+.box {
+	display: flex;
+	
+		&_1 {
+			padding-right: 40px;
+		}
+
+		&_2 {
+			padding-right: 40px;
+		}
+
+		&_3 {
+		}
+}
+.block {
+	width: 150px;
+	height: 40px;
+	background: rgb(218, 144, 7);
+}
+header{
+	padding: 30px;
+	background-image: url('../img/fon.jpg');
+	margin: 0 0 0 0;
+}
+.main {
+	background-image: url('../img/fon.main.sam.jpg');
+	min-height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.conteiner {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.row {
+}
+.block {
+
+		&_1 {
+		}
+
+		&_2 {
+		}
+
+		&_3 {
+		}
+}
+h1 {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 70px;
+	font-weight: 700;
+	text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red, 0 0 40px red;
+	color: #fff;
+}
+.text {
+	
+
+}
+
