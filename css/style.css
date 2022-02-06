@@ -92,8 +92,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 img {
-  width: 110px;
-  height: 110px;
+  inc: 110px;
+  max-height: 110px;
   border-radius: 100%;
 }
 
@@ -128,24 +128,22 @@ header {
   margin: 0 0 0 0;
 }
 
-.main {
-  background-image: url("../img/fon.main.sam.jpg");
-  min-height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.conteiner {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 h1 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 70px;
   font-weight: 700;
   text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red, 0 0 40px red;
   color: #fff;
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: calc(20px + 85 * ((100vw - 320px) / 1200));
+  }
+}
+
+@media (min-width: 767px) {
+  h1 {
+    font-size: calc(20px + 50 * (100vw / 1200));
+  }
 }
 /*# sourceMappingURL=style.css.map */
